@@ -6,54 +6,54 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Qual cenario te atrai mais?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "Um dia ensolarado, céu azul e muito movimento.",
+                afirmacao: "Você é energético, otimista e se sente motivado por ambientes ativos."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "Uma noite calma, céu estrelado e silêncio.",
+                afirmacao: "Você é introspectivo, criativo e valoriza momentos de paz e reflexão."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Em uma festa,você cotuma:",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "Ficar no meio da galera dançando.",
+                afirmacao: "Você é extrovertid0, sociavel e gosta e se expressar sem medo."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "Conversa com poucas pessoas em um canto.",
+                afirmacao: "Você é reservado e prefere não chamar a atenção para si."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Quando tem um problema, você:",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "Age rápiamente para resolver.",
+                afirmacao: "Você é pratico, objetivo e enfrenta aas dificuldades de frente."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Pensa bastante antes e agir.",
+                afirmacao: "Você é cauteloso, analitico , gosta de tomatar decisões."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Ao ouvir uma música, você prefere:",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Ritmos animaddos e dançantes.",
+                afirmacao: "Você é vibrante, alegre e gosta e aproveitar o momento."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "Músicas calmas e profundas.",
+                afirmacao: "Você é sensivel, emocional e usa a música para se conectar com seus sentimentos."
             }
         ]
     },
