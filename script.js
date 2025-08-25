@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Conversa com poucas pessoas em um canto.",
-                afirmacao: "Você é reservado e prefere não chamar a atenção para si."
+                afirmacao: "Você é reservado e pref.ere não chamar a atenção para si."
             }
         ]
     },
@@ -35,8 +35,8 @@ const perguntas = [
         enunciado: "Quando tem um problema, você:",
         alternativas: [
             {
-                texto: "Age rápiamente para resolver.",
-                afirmacao: "Você é pratico, objetivo e enfrenta aas dificuldades de frente."
+                texto: "Age rápidamente para resolver.",
+                afirmacao: "Você é pratico, objetivo e enfrenta as dificuldades de frente."
             },
             {
                 texto: "Pensa bastante antes e agir.",
