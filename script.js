@@ -81,7 +81,7 @@ function mostraPergunta() {
     if (atual >= perguntas.length) {
         mostraResultado();
         return;
-    }
+    }Em
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Você é...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
