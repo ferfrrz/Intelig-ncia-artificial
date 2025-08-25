@@ -19,11 +19,11 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Em uma festa,você cotuma:",
+        enunciado: "Em uma festa,você costuma:",
         alternativas: [
             {
                 texto: "Ficar no meio da galera dançando.",
-                afirmacao: "Você é extrovertid0, sociavel e gosta e se expressar sem medo."
+                afirmacao: "Você é extrovertido, sociavel e gosta e se expressar sem medo."
             },
             {
                 texto: "Conversa com poucas pessoas em um canto.",
@@ -81,7 +81,7 @@ function mostraPergunta() {
     if (atual >= perguntas.length) {
         mostraResultado();
         return;
-    }Em
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
