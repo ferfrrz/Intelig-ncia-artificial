@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Conversa com poucas pessoas em um canto.",
-                afirmacao: "Você é reservado e pref.ere não chamar a atenção para si."
+                afirmacao: "Você é reservado e prefere não chamar a atenção para si."
             }
         ]
     },
